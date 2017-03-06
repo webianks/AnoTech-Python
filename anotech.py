@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from IPython import get_ipython
-get_ipython().run_line_magic('matplotlib', 'inline')
+#from IPython import get_ipython
+#get_ipython().run_line_magic('matplotlib', 'inline')
 
 from numpy import genfromtxt
 from scipy.stats import multivariate_normal
