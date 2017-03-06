@@ -39,9 +39,9 @@ def selectThresholdByCV(probs,gt):
             best_epsilon = epsilon
     return best_f1, best_epsilon
 
-tr_data = read_dataset('tr_server_data.csv')
-cv_data = read_dataset('cv_server_data.csv')
-gt_data = read_dataset('gt_server_data.csv')
+tr_data = read_dataset('data/tr_server_data.csv')
+cv_data = read_dataset('data/cv_server_data.csv')
+gt_data = read_dataset('data/gt_server_data.csv')
 
 n_training_samples = tr_data.shape[0]
 n_dim = tr_data.shape[1]
